@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+header{
+    background-image: url("IMG-2527.jpg");
+    height: 100vh;
+    background-size: cover; 
+    background-position: center;
+}
+ul{
+    float:left;
+    list-style-type:none; 
+    margin-top:20px ;
+    margin-inline-start: 10px;
+}
+ul li{
+ display: inline-block ;
+}
+
+ul li a{
+    text-decoration:none;
+    color:rgb(0, 0, 0);
+    padding:5px 100px;
+    border:2px solid transparent
+    background-color: dimgrey;
+}
+.logo img{
+    
+    float:right ;
+    width:150px;
+    height: auto;
+}
+h1{
+    text-align: left;
+    font-family: cursive;
+    font-size: 30px;
+    
+}
